@@ -5,12 +5,13 @@ public class IntRepresentation {
         int firstLetter = 99;
         char a = (char) firstLetter;
         int secondLetter = 104;
-        char b = (char) secondLetter;
-        int thirdLetter = 97;
-        char c = (char) thirdLetter;
-        int fourthLetter = 114;
-        char d = (char) fourthLetter;
-        System.out.println(a+""+b+""+c+""+d);
+       char b = (char) secondLetter;
+       int thirdLetter = 97;
+       char c = (char) thirdLetter;
+       int fourthLetter = 114;
+       char d = (char) fourthLetter;
+        System.out.println(Character.toString(a) + Character.toString(b)+ Character.toString(c)+ Character.toString(d));
+
     }
 }
 //Print chars :'c', 'h', 'a', 'r' using int representation.
