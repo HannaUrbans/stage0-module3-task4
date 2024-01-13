@@ -14,4 +14,3 @@ public class IntRepresentation {
 
     }
 }
-//Print chars :'c', 'h', 'a', 'r' using int representation.
